@@ -226,3 +226,5 @@ echo "1. Activate the virtual environment:"
 echo "   source $VENV_DIR/bin/activate"
 echo "2. Start the Flask application:"
 echo "   python app.py"
+chmod +x setup.sh
+./setup.sh
