@@ -1,4 +1,4 @@
-# Ddroidlabs-Codex-Mini
+# Ddroidlabs-mixture-of-agents
 small agentic model designed as a coding assistant
 
 # Mixture of Agents Model (MAM) - Full-Stack Development Team
