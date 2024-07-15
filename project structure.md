@@ -1,4 +1,8 @@
 mixture_of_agents/
+├── README.md
+├── setup.sh
+├── requirements.txt
+├── app.py
 ├── colab_notebook.ipynb
 ├── dataset/
 │   └── code_finetune_dataset.json
