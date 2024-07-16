@@ -16,3 +16,16 @@ class FrontEndAgent:
         inputs = self.tokenizer(task_data['task'], return_tensors='pt')
         outputs = self.model.generate(**inputs)
         return self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+import torch
+from transformers import PreTrainedModel, PreTrainedTokenizer
+
+class FrontEndAgent:
+    def __init__(self, model: PreTrainedModel, tokenizer: PreTrainedTokenizer):
+        self.model = model
+        self.tokenizer = tokenizer
+
+    def process(self, task_data: dict) -> str:
+        inputs = self.tokenizer(task_data['task'], return_tensors='pt')
+        outputs = self.model.generate(**inputs)
+        return self.tokenizer.decode(outputs[0], skip_special_tokens=True)
