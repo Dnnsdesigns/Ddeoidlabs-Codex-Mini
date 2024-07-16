@@ -1,0 +1,10 @@
+{
+  "task_type": "front_end",
+  "task_data": {
+    "task": "Create a responsive HTML layout with CSS"
+  }
+}
+
+{
+  "result": "<!DOCTYPE html><html>...</html>"
+}
